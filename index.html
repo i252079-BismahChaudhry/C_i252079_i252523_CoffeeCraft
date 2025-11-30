@@ -1,11 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>CoffeeCraft</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Craft</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <h1>Welcome to CoffeeCraft</h1>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <span>|</span>
+            <li><a href=".html">Products</a></li>
+            <span>|</span>
+            <li><a href="aboutus">About Us</a></li>
+            <span>|</span>
+            <li><a href=".html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <div class="auth-buttons">
+            <button class="login"><a href="login.html">Login</a></button>
+            <button class="signup"><a href="signup.html">Sign Up</a></button>
+        </div>
+    </nav>
+    <div class="start-image">
+        <img src="start.jpg" alt="coffee image" class="main-image">
+        <div class="overlay"></div>
+        <p class="ovet-text">&emsp;&emsp;Brew Your <br>&emsp;&emsp;Perfect Cup!!</p>
+        <br><br><br>
+        <p class="text">&emsp;Single-origin beans, custom blends,<br>&emsp;&emsp;and handcrafted mugs</p>
+        <br><br><br><br><br><br>
+        <button class="shop-beans"><a href="shop-beans">Shop Beans</a></button>
+        <button class="customize"><a href="customize">Customize your Coffee</a></button>
+
+    </div>
+    <P class="underline"><b><u>Featured Category:</u></b></P>
+    <div class="Featured-category">
+        <div class="beans">
+            <img src="icons/coffee-beans.png" alt="beans icon" class="coffee-icon">
+            <p class="icon-text"> Beans</p>
+            <p><u>Shop Now</u></p>
+        </div>
+        <div class="beans">
+            <img src="icons/coffee-mug.png" alt="beans icon" class="coffee-icon">
+            <p class="icon-text"> Mugs</p>
+            <p><u>Shop Now</u></p>
+        </div>
+        <div class="beans">
+            <img src="icons/instant-coffee.png" alt="beans icon" class="coffee-icon">
+            <p class="icon-text"> Instant</p>
+            <p><u>Shop Now</u></p>
+        </div>
+        <div class="beans">
+            <img src="icons/pitcher.png" alt="beans icon" class="coffee-icon">
+            <p class="icon-text"> Accessories</p>
+            <p><u>Shop Now</u></p>
+        </div>
+
+    </div>
+    </div>
+    <P class="underline"><b><u>Best Sellers:</u></b></P>
+    <div class="Best-sellers">
+        <div class="Stuff">
+            <img src="icons/printed mug.png" alt="coffee mug" class="coffee-mug">
+            <p class="icon-text2">Printed Mug</p>
+            <p class="price">PKR 1000</p>
+            <img src="icons/stars.png" alt="ratings" class="ratings">
+            <button class="Addtocart">Add to Cart</button>
+        </div>
+        <div class="Stuff">
+            <img src="icons/roasted beans.png" alt="coffee mug" class="coffee-mug">
+            <p class="icon-text2">Roasted Beans</p>
+            <p class="price">PKR 1500</p>
+            <img src="icons/stars.png" alt="ratings" class="ratings">
+            <button class="Addtocart">Add to Cart</button>
+        </div>
+        <div class="Stuff">
+            <img src="icons/Travel mug.png" alt="coffee mug" class="coffee-mug">
+            <p class="icon-text2">Travel Mug</p>
+            <p class="price">PKR 2000</p>
+            <img src="icons/stars.png" alt="ratings" class="ratings">
+            <button class="Addtocart">Add to Cart</button>
+        </div>
+        <div class="Stuff">
+            <img src="icons/Coffee Brewer.png" alt="coffee mug" class="coffee-mug">
+            <p class="icon-text2">Coffee Brewer</p>
+            <p class="price">PKR 1000</p>
+            <img src="icons/stars.png" alt="ratings" class="ratings">
+            <button class="Addtocart">Add to Cart</button>
+        </div>
+        <div class="Stuff">
+            <img src="icons/Americano.png" alt="coffee mug" class="coffee-mug">
+            <p class="icon-text2">Americano</p>
+            <p class="price">PKR 800</p>
+            <img src="icons/stars.png" alt="ratings" class="ratings">
+            <button class="Addtocart">Add to Cart</button>
+        </div>
+        <div class="Stuff">
+            <img src="icons/cappuccino.png" alt="coffee mug" class="coffee-mug">
+            <p class="icon-text2">Cappuccino</p>
+            <p class="price">PKR 2000</p>
+            <img src="icons/stars.png" alt="ratings" class="ratings">
+            <button class="Addtocart">Add to Cart</button>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="Customization-studio">
+            <div class="content-left">
+                <p class="Studio"> Customization Studio </p>
+                <button class="try-studio">Try the Studio</button>
+            </div>
+            <img src="icons/beans.png" alt="customization studio" class="coffee">
+            <img src="icons/coffee-bean.png" alt="beans" class="coffee-bean">
+        </div>
+    </div>
+    <P class="underline"><b><u>Reviews:</u></b></P>
+   <div class="review-card-wrapper">
+    <div class="review-card">
+        <div class="reviewer-info">
+            <span class="icon-placeholder"><img src="icons/user.png" alt="" class="user"></span> 
+            <p class="reviewer-name">Sara Khan</p>
+        </div>
+        <p class="review-quote">
+            "Best Coffee I've ever had"
+        </p>
+    </div>
+    <div class="review-card">
+        <div class="reviewer-info">
+            <span class="icon-placeholder"><img src="icons/user.png" alt="" class="user"></span> 
+            <p class="reviewer-name">Ahmed Tahir</p>
+        </div>
+        <p class="review-quote">
+            "The coffee I've wanted!"
+        </p>
+    </div>
+    <div class="review-card">
+        <div class="reviewer-info">
+            <span class="icon-placeholder"><img src="icons/user.png" alt="" class="user"></span> 
+            <p class="reviewer-name">Sara Khan</p>
+        </div>
+        <p class="review-quote1">
+"I never thought I’d find a coffee that matches my exact taste.”        </p>
+    </div>
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="footer-column logo-column">
+                        <img src="icons/icon2.png" alt="logo" class="footer-logo">
+            <div class="logo-area">
+                            </div>
+            <p class="tagline">
+                Freshly roasted coffee beans, hand-brewed with love. Taste the craft in every cup.
+            </p>
+        </div>
+
+        <div class="footer-column">
+
+            <p class="column-title">Quick Links:</p>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <p class="column-title">Customer Service:</p>
+            <ul class="footer-links">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column follow-us-column">
+            <p class="column-title">Follow us on:</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><span class="social-icon">f</span></a>
+                <a href="https://www.instagram.com/"><span class="social-icon">i</span></a>
+                <a href="https://x.com/"><span class="social-icon">X</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        Copyright: © 2025 coffecraft. All rights reserved.
+    </div>
+</footer>
 </body>
+
 </html>
