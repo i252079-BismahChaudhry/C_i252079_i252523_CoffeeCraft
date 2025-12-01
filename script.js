@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Homepage loaded successfully.");
 
-    // Best Sellers Add to Cart buttons
     document.querySelectorAll(".Best-sellers .Addtocart").forEach(button => {
         button.addEventListener("click", () => {
             alert("Product added to cart successfully!");
@@ -30,6 +29,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 document.querySelector(".search-box input").addEventListener("input", function (e) {
-    // Not counted in the required 3 logs, but still useful — you may remove if needed
     console.log("User search query:", e.target.value);
 });
