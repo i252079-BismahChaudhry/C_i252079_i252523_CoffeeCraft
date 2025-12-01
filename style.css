@@ -129,7 +129,6 @@ body {
     box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
 
 }
-/*------------------------------------------*/
 .start-image {  
     position: relative;
     width: 100%;
@@ -160,7 +159,6 @@ body {
 .start-image {
     position: relative;
     display: inline-block;
-    /* or block */
 }
 
 .start-image button a {
@@ -340,9 +338,6 @@ body {
 .content-left {
     display: flex;
     flex-direction: column;
-    /* margin-top: 30px; Stack title and button vertically */
-    /* align-items: flex-start; Align text and button to the left */
-    /* gap: 10px; Space between title and button */
 }
 .Studio {
     font-size: 50px;
@@ -383,7 +378,6 @@ body {
     height: 81px;
     display: block;
 }
-/* Wrapper to center the card on the screen (optional, but good practice) */
 .review-card-wrapper {
     display: flex;
     justify-content: center;
@@ -395,24 +389,23 @@ body {
 }
 
 .review-card {
-    /* Dimensions and Appearance */
     width: 200px;
     height: 180px;
-    background-color: #f3eee8; /* Light beige/off-white background */
-    border-radius: 18px; /* High border-radius for very rounded corners */
+    background-color: #f3eee8; 
+    border-radius: 18px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
-    /* Layout */
+    
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align content to the left edge of the card */
+    align-items: flex-start; 
 }
 
 .reviewer-info {
     display: flex;
     align-items: center;
-    margin-bottom: 15px; /* Space between the name/icon row and the quote */
+    margin-bottom: 15px;
 }
 
 .icon-placeholder {
@@ -432,32 +425,29 @@ body {
     font-size: 18px;
     font-weight: bold;
     color: #1c0c01;
-    margin: 0; /* Remove default margins */
-    line-height: 1; /* Ensure text is vertically centered with the icon */
+    margin: 0;
+    line-height: 1;
 }
 
 .review-quote {
-    font-size: 20px; /* Slightly larger size for the quote */
+    font-size: 20px; 
     font-weight: bold;
     color: #1c0c01;
     margin: 0;
-    /* This ensures multi-line text is aligned left */
     text-align: left; 
     line-height: 1.2;
 }
 .review-quote1 {
-    font-size: 15px; /* Slightly larger size for the quote */
+    font-size: 15px; 
     font-weight:500;
     color: #1c0c01;
     margin: 0;
-    /* This ensures multi-line text is aligned left */
     text-align: left; 
     line-height: 1.2;
 }
-/* --- Base Footer Styles --- */
 footer {
     width: 100%;
-    background-color: #4B2810; /* Main dark brown background */
+    background-color: #4B2810; 
     color: #fff;
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -465,17 +455,15 @@ footer {
 
 .footer-content {
     display: grid;
-    /* Defines 4 columns with specific widths */
     grid-template-columns: 2fr 1fr 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 20px;
 }
 
-/* --- Column Titles and Links --- */
 .footer-column {
     padding: 0 20px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1); /* Thin white separator */
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-column:last-child {
@@ -508,18 +496,15 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #FFD4AA; /* Light brown/peach hover color */
+    color: #FFD4AA; 
 }
 
-/* --- Logo and Tagline Column --- */
 .logo-column {
-    padding-left: 0; /* Remove padding on the far left */
+    padding-left: 0; 
 }
 
 .logo-area {
-    /* Styles for logo image */
-    width: 100px; /* Adjust as needed */
-    /* height: 100px; Adjust as needed */
+    width: 100px;
     margin-bottom: 10px;
 }
 
@@ -534,9 +519,8 @@ footer {
     margin: 0;
 }
 
-/* --- Social Media Column --- */
 .follow-us-column {
-    padding-right: 0; /* Remove padding on the far right */
+    padding-right: 0; 
 }
 
 .social-icons {
@@ -545,13 +529,12 @@ footer {
 }
 
 .social-icon {
-    /* These styles replicate the circular, dark social icons */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 35px;
     height: 35px;
-    background-color: #1c0c01; /* Very dark brown/black circle background */
+    background-color: #1c0c01; 
     border-radius: 50%;
     color: #fff;
     font-size: 18px;
@@ -565,14 +548,13 @@ footer {
     color: #1c0c01;
 }
 
-/* --- Copyright Bar --- */
 .footer-copyright {
-    background-color: #381f0a; /* Slightly darker brown bottom bar */
+    background-color: #381f0a; 
     text-align: center;
     padding: 15px 0;
     font-size: 14px;
     color: #ccc;
-    border-top: 1px solid #542506; /* Subtle separator line */
+    border-top: 1px solid #542506; 
 }
 .footer-logo {
     width: 120px;
