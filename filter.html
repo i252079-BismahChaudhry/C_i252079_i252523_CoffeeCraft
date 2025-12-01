@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Craft Filters</title>
+  <link rel="stylesheet" href="filter.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <span>|</span>
+            <li><a href="products.html">Products</a></li>
+            <span>|</span>
+            <li><a href="aboutus">About Us</a></li>
+            <span>|</span>
+            <li><a href=".html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <div class="auth-buttons">
+            <button class="login"><a href="login.html">Login</a></button>
+<button class="signup" onclick="window.location.href='signup.html'">Sign Up</button>
+        </div>
+    </nav>
+
+  <main class="filter-page">
+    <section class="filter-card">
+      <h1 class="filter-title">Coffee Craft</h1>
+      <h2 class="filter-subtitle">Find Your Perfect Coffee Blend</h2>
+
+      <form id="filterForm" class="filter-form">
+        <div class="filter-grid">
+
+          <!-- Icons column -->
+          <div class="filter-icons">
+            <span>☕</span>
+            <span>🔥</span>
+            <span>📍</span>
+            <span>💲</span>
+            <span>⚙️</span>
+            <span>✅</span>
+            <span>⇅</span>
+          </div>
+
+          <!-- Fields column -->
+          <div class="filter-fields">
+
+            <label>
+              <span>Category</span>
+              <input type="text" name="category">
+            </label>
+
+            <label>
+              <span>Roast Level</span>
+              <input type="text" name="roast">
+            </label>
+
+            <label>
+              <span>Origin</span>
+              <input type="text" name="origin">
+            </label>
+
+            <label class="range-label">
+              <span>Price Range</span>
+              <input type="range" name="price" min="0" max="5000" value="2500" id="priceRange">
+            </label>
+
+            <label>
+              <span>Grind</span>
+              <input type="text" name="grind">
+            </label>
+
+            <label>
+              <span>Availability</span>
+              <input type="text" name="availability">
+            </label>
+
+            <label>
+              <span>Sort by</span>
+              <select name="sort">
+                <option value="">Select</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="rating">Customer Rating</option>
+              </select>
+            </label>
+
+          </div>
+        </div>
+
+        <div class="filter-buttons">
+          <button type="submit" class="btn primary-btn" id="applyBtn">
+            Apply Filters
+          </button>
+          <button type="button" class="btn secondary-btn" id="clearBtn">
+            Clear All
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-column logo-column">
+                        <img src="icons/icon2.png" alt="logo" class="footer-logo">
+            <div class="logo-area">
+                            </div>
+            <p class="tagline">
+                Freshly roasted coffee beans, hand-brewed with love. Taste the craft in every cup.
+            </p>
+        </div>
+
+        <div class="footer-column">
+
+            <p class="column-title">Quick Links:</p>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <p class="column-title">Customer Service:</p>
+            <ul class="footer-links">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column follow-us-column">
+            <p class="column-title">Follow us on:</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><span class="social-icon">f</span></a>
+                <a href="https://www.instagram.com/"><span class="social-icon">i</span></a>
+                <a href="https://x.com/"><span class="social-icon">X</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        Copyright: © 2025 coffecraft. All rights reserved.
+    </div>
+</footer>
+
+  <script src="filter.js"></script>
+</body>
+</html>
