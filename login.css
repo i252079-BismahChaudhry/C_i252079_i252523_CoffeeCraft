@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "Yaldevi Colombo";
+    src: url("fonts/yaldevi.colombo-semibold.ttf") format("truetype");
+    font-weight: 600;
+    /* SemiBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
+    font-weight: 400;
+    /* Regular */
+    font-style: normal;
+}
+
+body {
+    background-color: #F6E7D7;
+    margin: 0;
+    padding: 0;
+    font-family: "Yaldevi Colombo", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background: #e8ab87;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-links li {
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.divider {
+    color: #4a2c1a;
+    font-size: 20px;
+}
+
+.search-box {
+    background: #f8d9b8;
+    padding: 8px 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    width: 260px;
+}
+
+.search-box i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+}
+
+.fa-regular,
+.fa-solid {
+    color: #4a2c1a;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.auth-buttons button {
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    gap: 0px;
+
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.login {
+    background: #5b2d16;
+    color: white;
+    border-radius: 8px 0 0 8px;
+    margin: 0;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.signup {
+    background: white;
+    color: black;
+    border-radius: 0 8px 8px 0;
+    margin: 0;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
+
+}
+/*---------------------------------------------------*/
+
+
+.login-container {
+    background: rgba(60, 40, 20, 0.65);
+    padding: 40px;
+    width: 350px;
+    border-radius: 10px;
+    color: white;
+    backdrop-filter: blur(4px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #3a1f0f;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2b1509;
+}
+
+.link-section {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.back-btn {
+    margin-top: 20px;
+    background: white;
+    color: #1c0c01;
+}
+/**-------------------------------------------------/
+/* ------------------- FOOTER ------------------- */
+
+footer {
+    width: 100%;
+    background-color: #4B2810; 
+    color: #fff;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout of footer columns */
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* Each column */
+.footer-column {
+    padding: 0 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-column:last-child {
+    border-right: none;
+}
+
+/* Column headings */
+.column-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+/* List styling */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #FFD4AA;
+}
+
+/* Left logo column */
+.logo-column {
+    padding-left: 0;
+}
+
+.footer-logo {
+    width: 120px;
+    height: 120px;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* Social icons */
+.follow-us-column {
+    padding-right: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: #1c0c01;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.social-icon:hover {
+    background-color: #FFD4AA;
+    color: #1c0c01;
+}
+
+/* Bottom copyright bar */
+.footer-copyright {
+    background-color: #381f0a;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #ccc;
+    border-top: 1px solid #542506;
+}
+/* ------------------- FOOTER ------------------- */
+
+footer {
+    width: 100%;
+    background-color: #4B2810; 
+    color: #fff;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}
+/* Background image behind everything */
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* pushes image behind page */
+}
+
+/* Fix layout so login stays centered between nav & footer */
+.page-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+/* Make body behave like normal website layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* FIXED login container — transparent and centered */
+.login-container {
+    background: rgba(60, 40, 20, 0.75);
+    padding: 40px;
+    width: 360px;
+    border-radius: 12px;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+/* Layout of footer columns */
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* Each column */
+.footer-column {
+    padding: 0 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-column:last-child {
+    border-right: none;
+}
+
+/* Column headings */
+.column-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+/* List styling */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #FFD4AA;
+}
+
+/* Left logo column */
+.logo-column {
+    padding-left: 0;
+}
+
+.footer-logo {
+    width: 120px;
+    height: 120px;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* Social icons */
+.follow-us-column {
+    padding-right: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: #1c0c01;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.social-icon:hover {
+    background-color: #FFD4AA;
+    color: #1c0c01;
+}
+
+/* Bottom copyright bar */
+.footer-copyright {
+    background-color: #381f0a;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #ccc;
+    border-top: 1px solid #542506;
+}
+
