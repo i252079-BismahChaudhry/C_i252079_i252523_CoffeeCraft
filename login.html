@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Login Page</title>
+    <link rel="stylesheet" href="login.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+ <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <span>|</span>
+            <li><a href=".html">Products</a></li>
+            <span>|</span>
+            <li><a href="aboutus">About Us</a></li>
+            <span>|</span>
+            <li><a href=".html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <div class="auth-buttons">
+            <button class="login"><a href="login.html">Login</a></button>
+<button class="signup" onclick="window.location.href='signup.html'">Sign Up</button>
+        </div>
+    </nav> 
+<img src="icons/background.jpg" alt="background" class="bg-image">
+
+<div class="page-content">
+
+    
+    <div class="login-container">
+        <h2>Login / Sign up</h2>
+
+        <input type="text" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+
+        <button id="loginBtn">Log in</button>
+
+        <div class="link-section">
+            <a href="#" id="forgotPass">Forgot Password?</a><br>
+            <a href="#" id="createAcc">Create an account</a>
+        </div>
+
+        <button class="back-btn" id="backBtn">Back</button>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-column logo-column">
+                        <img src="icons/icon2.png" alt="logo" class="footer-logo">
+            <div class="logo-area">
+                            </div>
+            <p class="tagline">
+                Freshly roasted coffee beans, hand-brewed with love. Taste the craft in every cup.
+            </p>
+        </div>
+
+        <div class="footer-column">
+
+            <p class="column-title">Quick Links:</p>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <p class="column-title">Customer Service:</p>
+            <ul class="footer-links">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column follow-us-column">
+            <p class="column-title">Follow us on:</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><span class="social-icon">f</span></a>
+                <a href="https://www.instagram.com/"><span class="social-icon">i</span></a>
+                <a href="https://x.com/"><span class="social-icon">X</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        Copyright: © 2025 coffecraft. All rights reserved.
+    </div>
+</footer>
+  
+
+</body>
+</html>

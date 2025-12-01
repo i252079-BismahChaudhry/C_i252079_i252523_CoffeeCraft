@@ -1,3 +1,159 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4e0cc;           
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+
+.filter-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+
+.filter-card {
+  background-color: #fff7ed;
+  border-radius: 18px;
+  width: 650px;
+  max-width: 100%;
+  padding: 28px 32px 26px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+
+.filter-title {
+  text-align: center;
+  font-size: 26px;
+  color: #3b2314;
+  margin-bottom: 4px;
+}
+
+.filter-subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #5b3417;
+  margin-bottom: 20px;
+}
+
+
+.filter-form {
+  margin-top: 4px;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 10px;
+}
+
+
+.filter-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+
+
+.filter-fields label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #3b2314;
+}
+
+.filter-fields label span {
+  flex: 0 0 120px;
+}
+
+.filter-fields input,
+.filter-fields select {
+  flex: 1;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid #caa887;
+  background-color: #fffdf9;
+}
+
+
+.range-label input[type="range"] {
+  width: 100%;
+}
+
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.btn {
+  padding: 8px 22px;
+  border-radius: 8px;
+  border: 2px solid #5b3417;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #5b3417;
+  color: #ffffff;
+}
+
+.secondary-btn {
+  background-color: #fff7ed;
+  color: #5b3417;
+}
+
+.primary-btn:hover {
+  filter: brightness(1.1);
+}
+
+.secondary-btn:hover {
+  background-color: #f0dfcf;
+}
+
+
+@media (max-width: 640px) {
+  .filter-card {
+    padding: 22px 18px;
+  }
+
+  .filter-fields label {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-fields label span {
+    margin-bottom: 4px;
+  }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+}
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +166,7 @@
     font-family: "Yaldevi Colombo";
     src: url("fonts/yaldevi.colombo-semibold.ttf") format("truetype");
     font-weight: 600;
+  
     font-style: normal;
 }
 
@@ -17,6 +174,7 @@
     font-family: "Yanone Kaffeesatz";
     src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
     font-weight: 400;
+   
     font-style: normal;
 }
 
@@ -127,61 +285,9 @@ body {
     box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
 
 }
-body {
-    font-family: Arial, sans-serif;
-    background: #f6e7d8;
-    margin: 0;
-    padding: 0;
-}
-
-header h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 40px;
-}
-
-.section-title {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 38px;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 25px;
-    justify-items: center;
-    padding: 20px;
-}
-
-
-.card {
-    width: 230px;
-    background: #fff;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    text-align: center;
-}
-
-.card img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.addCart {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #381f0a;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
 footer {
     width: 100%;
-    background-color: #4B2810; 
+    background-color: #4B2810;
     color: #fff;
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -189,11 +295,13 @@ footer {
 
 .footer-content {
     display: grid;
+  
     grid-template-columns: 2fr 1fr 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 20px;
 }
+
 
 .footer-column {
     padding: 0 20px;
@@ -230,16 +338,18 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #FFD4AA; 
+    color: #FFD4AA;
 }
 
 
 .logo-column {
-    padding-left: 0;
+    padding-left: 0; 
 }
 
 .logo-area {
-    width: 100px;
+
+    width: 100px; 
+  
     margin-bottom: 10px;
 }
 
@@ -254,6 +364,7 @@ footer {
     margin: 0;
 }
 
+
 .follow-us-column {
     padding-right: 0;
 }
@@ -264,6 +375,7 @@ footer {
 }
 
 .social-icon {
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,13 +395,14 @@ footer {
     color: #1c0c01;
 }
 
+
 .footer-copyright {
     background-color: #381f0a; 
     text-align: center;
     padding: 15px 0;
     font-size: 14px;
     color: #ccc;
-    border-top: 1px solid #542506; 
+    border-top: 1px solid #542506;
 }
 .footer-logo {
     width: 120px;
