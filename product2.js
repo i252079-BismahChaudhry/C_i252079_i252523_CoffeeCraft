@@ -15,7 +15,7 @@ document.querySelectorAll(".qty-btn").forEach(button => {
 const addBtn = document.querySelector(".add-cart-btn");
 if (addBtn) {
   addBtn.addEventListener("click", () => {
-    // Alert #2
+   
     alert("Add to Cart .");
 
   
