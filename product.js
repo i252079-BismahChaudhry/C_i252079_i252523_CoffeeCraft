@@ -36,11 +36,11 @@ document.querySelector(".add-cart-btn").addEventListener("click", () => {
 
 document.querySelector(".buy-btn").addEventListener("click", () => {
   alert("Buy It Now .");
-  console.log("Buy It Now clicked.");
+  console.log("Buy It Now !!hurry to checkout.");
 });
 
 
 document.querySelector(".heart-btn").addEventListener("click", () => {
-  alert("feature comming soon.");
+  alert("Your Favourites!!");
   console.log("Heart click.");
 });

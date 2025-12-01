@@ -19,7 +19,7 @@ if (addBtn) {
     alert("Add to Cart .");
 
   
-    console.log("Add to Cart clicked .");
+    console.log("Added to Cart clicked .");
   });
 }
 
@@ -27,7 +27,7 @@ if (addBtn) {
 const buyBtn = document.querySelector(".buy-btn");
 if (buyBtn) {
   buyBtn.addEventListener("click", () => {
-    alert("Buy It Now is disabled .");
+    alert("Buy It Now ! Hurry to checkout .");
     console.log("Buy It Now clicked .");
   });
 }
@@ -36,7 +36,7 @@ if (buyBtn) {
 const heartBtn = document.querySelector(".heart-btn");
 if (heartBtn) {
   heartBtn.addEventListener("click", () => {
-    alert("Wishlist feature coming soon .");
+    alert("Wishlist your favourites! .");
     console.log("Heart / wishlist clicked .");
   });
 }

@@ -3,7 +3,7 @@ console.log("Menu page loaded successfully.");
 
 
 document.getElementById("filterBtn").addEventListener("click", function () {
-    alert("Filter feature is coming soon!"); 
+    alert("Choose your favourite filter option."); 
     console.log("Filter button clicked by the user."); 
 });
 
