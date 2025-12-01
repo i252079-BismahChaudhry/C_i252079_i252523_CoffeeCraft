@@ -1,0 +1,482 @@
+body {
+    font-family: Georgia, serif;
+    background: #f3dfcf;
+    margin: 0;
+    padding: 0;
+}
+
+/* Prevent nav/footer from affecting layout */
+.checkout-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+/* LEFT PANEL */
+.billing {
+    background: #e9bfa6;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.billing h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.billing input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #999;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.payment-box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.payment-card {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+
+.payment-card input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.payment-card label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    flex: 1;
+    margin: 0;
+}
+
+.payment-card i {
+    font-size: 20px;
+}
+
+/* RIGHT PANEL */
+.summary {
+    background: #e9bfa6;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.summary h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+}
+
+.item p {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.item-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.totals {
+    margin-top: 20px;
+}
+
+.totals p {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.grand {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px !important;
+    padding-top: 10px;
+}
+
+.order-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #4b2600;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background: #3a1d00;
+}
+
+.secure {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.back-btn,
+.continue-btn {
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 2px solid #4b2600;
+    cursor: pointer;
+    background: white;
+}
+
+.continue-btn {
+    background: #4b2600;
+    color: white;
+}
+
+.back-btn:hover {
+    background: #f0f0f0;
+}
+
+.continue-btn:hover {
+    background: #3a1d00;
+}
+
+.payment-card {
+    background: #f6d9c9;      /* light peach background */
+    padding: 25px;            /* big padding */
+    border-radius: 12px;      /* curved edges */
+    margin-top: 25px;         /* spacing */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* card shadow */
+}
+
+.payment-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.payment-box label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "Yaldevi Colombo";
+    src: url("fonts/yaldevi.colombo-semibold.ttf") format("truetype");
+    font-weight: 600;
+    /* SemiBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
+    font-weight: 400;
+    /* Regular */
+    font-style: normal;
+}
+
+body {
+    font-family: "Yaldevi Colombo", sans-serif;
+    background-color: #F6E7D7;
+    margin: 0;
+    padding: 0;   /* IMPORTANT: Remove padding */
+}
+
+
+.navbar {
+    width: 100%;
+    background: #e8ab87;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-links li {
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.divider {
+    color: #4a2c1a;
+    font-size: 20px;
+}
+
+.search-box {
+    background: #f8d9b8;
+    padding: 8px 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    width: 260px;
+}
+
+.search-box i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+}
+
+.fa-regular,
+.fa-solid {
+    color: #4a2c1a;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.auth-buttons button {
+    padding: 8px 18px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    gap: 0px;
+
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.login {
+    background: #5b2d16;
+    color: white;
+    border-radius: 8px 0 0 8px;
+    margin: 0;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.signup {
+    background: white;
+    color: black;
+    border-radius: 0 8px 8px 0;
+    margin: 0;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
+
+}
+footer {
+    width: 100%;
+    background-color: #4B2810; /* Main dark brown background */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.footer-content {
+    display: grid;
+    /* Defines 4 columns with specific widths */
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* --- Column Titles and Links --- */
+.footer-column {
+    padding: 0 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1); /* Thin white separator */
+}
+
+.footer-column:last-child {
+    border-right: none;
+}
+
+.column-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #FFD4AA; /* Light brown/peach hover color */
+}
+
+/* --- Logo and Tagline Column --- */
+.logo-column {
+    padding-left: 0; /* Remove padding on the far left */
+}
+
+.logo-area {
+    /* Styles for logo image */
+    width: 100px; /* Adjust as needed */
+    /* height: 100px; Adjust as needed */
+    margin-bottom: 10px;
+}
+
+.logo-area img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #ccc;
+    margin: 0;
+}
+
+/* --- Social Media Column --- */
+.follow-us-column {
+    padding-right: 0; /* Remove padding on the far right */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    /* These styles replicate the circular, dark social icons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: #1c0c01; /* Very dark brown/black circle background */
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.social-icon:hover {
+    background-color: #FFD4AA;
+    color: #1c0c01;
+}
+
+/* --- Copyright Bar --- */
+.footer-copyright {
+    background-color: #381f0a; /* Slightly darker brown bottom bar */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #ccc;
+    border-top: 1px solid #542506; /* Subtle separator line */
+}
+.footer-logo {
+    width: 120px;
+    height: 120px;
+
+}

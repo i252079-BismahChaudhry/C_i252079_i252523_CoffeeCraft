@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Coffee Craft Checkout</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="checkout.css">
+
+</head>
+
+<body>
+ <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <span>|</span>
+            <li><a href="products.html">Products</a></li>
+            <span>|</span>
+            <li><a href="aboutus">About Us</a></li>
+            <span>|</span>
+            <li><a href=".html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <div class="auth-buttons">
+            <button class="login"><a href="login.html">Login</a></button>
+<button class="signup" onclick="window.location.href='signup.html'">Sign Up</button>
+        </div>
+    </nav>
+<div class="checkout-container">
+
+    <h1 class="title">Coffee Craft <br> Checkout</h1>
+
+    <div class="main-grid">
+
+        <!-- BILLING SECTION -->
+        <div class="billing">
+            <h2>Billing Address</h2>
+
+            <input type="text" id="fullName" placeholder="Full Name">
+            <input type="text" id="address" placeholder="Address">
+            <input type="text" id="city" placeholder="City">
+            <input type="text" id="state" placeholder="State">
+
+      <div class="payment-card">
+    <div class="payment-box">
+        <label><input type="radio" name="pay" value="card"> Credit Card</label>
+
+        <label><input type="radio" name="pay" value="paypal">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" height="20"> PayPal
+        </label>
+
+        <label><input type="radio" name="pay" value="bank">
+            <img src="https://cdn-icons-png.flaticon.com/512/633/633611.png" height="18"> Bank Transfer
+        </label>
+
+        <label><input type="radio" name="pay" value="apple">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" height="18"> Pay
+        </label>
+    </div>
+</div>
+
+
+        </div>
+
+        <!-- ORDER SUMMARY -->
+        <div class="summary">
+            <h2>Order Summary</h2>
+
+            <!-- ITEM 1 -->
+            <div class="item">
+                <div>
+                    <h3>Ristretto</h3>
+                    <p>Arabica beans<br>light roast level</p>
+                </div>
+                <div class="price">PKR 500</div>
+                <img src="gemni photos/ristretto.png" class="item-img">
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="item">
+                <div>
+                    <h3>Roasted over</h3>
+                    <p>Roasted beans</p>
+                </div>
+                <div class="price">PKR 1500</div>
+                <img src="gemni photos/robusta beans.jpg" class="item-img">
+            </div>
+
+            <div class="totals">
+                <p>Subtotal <span>PKR 2000</span></p>
+                <p>Shipping <span>PKR 100</span></p>
+                <p>Tax <span>PKR 50</span></p>
+                
+                <p class="grand">Total <span>PKR 2150</span></p>
+            </div>
+
+            <button id="placeOrderBtn" class="order-btn">Place Order</button>
+            <p class="secure"><span>🔒</span> Secure payment</p>
+        </div>
+
+    </div>
+
+    <div class="bottom-buttons">
+        <button class="back-btn">Back</button>
+        <button class="continue-btn">Continue Shopping</button>
+    </div>
+
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="footer-column logo-column">
+                        <img src="icons/icon2.png" alt="logo" class="footer-logo">
+            <div class="logo-area">
+                            </div>
+            <p class="tagline">
+                Freshly roasted coffee beans, hand-brewed with love. Taste the craft in every cup.
+            </p>
+        </div>
+
+        <div class="footer-column">
+
+            <p class="column-title">Quick Links:</p>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <p class="column-title">Customer Service:</p>
+            <ul class="footer-links">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column follow-us-column">
+            <p class="column-title">Follow us on:</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><span class="social-icon">f</span></a>
+                <a href="https://www.instagram.com/"><span class="social-icon">i</span></a>
+                <a href="https://x.com/"><span class="social-icon">X</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        Copyright: © 2025 coffecraft. All rights reserved.
+    </div>
+</footer>
+<script src="checkout.js"></script>
+
+</body>
+</html>
