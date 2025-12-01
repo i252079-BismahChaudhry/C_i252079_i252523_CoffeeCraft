@@ -10,7 +10,7 @@
     font-family: "Yaldevi Colombo";
     src: url("fonts/yaldevi.colombo-semibold.ttf") format("truetype");
     font-weight: 600;
-    /* SemiBold */
+  
     font-style: normal;
 }
 
@@ -18,7 +18,7 @@
     font-family: "Yanone Kaffeesatz";
     src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
     font-weight: 400;
-    /* Regular */
+
     font-style: normal;
 }
 
@@ -129,7 +129,7 @@ body {
     box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
 
 }
-/*---------------------------------------------------*/
+
 
 
 .login-container {
@@ -182,8 +182,7 @@ button:hover {
     background: white;
     color: #1c0c01;
 }
-/**-------------------------------------------------/
-/* ------------------- FOOTER ------------------- */
+
 
 footer {
     width: 100%;
@@ -193,7 +192,6 @@ footer {
     font-family: Arial, sans-serif;
 }
 
-/* Layout of footer columns */
 .footer-content {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -202,7 +200,7 @@ footer {
     padding: 30px 20px;
 }
 
-/* Each column */
+
 .footer-column {
     padding: 0 20px;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
@@ -212,7 +210,7 @@ footer {
     border-right: none;
 }
 
-/* Column headings */
+
 .column-title {
     font-size: 18px;
     font-weight: bold;
@@ -221,7 +219,7 @@ footer {
     white-space: nowrap;
 }
 
-/* List styling */
+
 .footer-links {
     list-style: none;
     padding: 0;
@@ -242,7 +240,6 @@ footer {
     color: #FFD4AA;
 }
 
-/* Left logo column */
 .logo-column {
     padding-left: 0;
 }
@@ -258,7 +255,7 @@ footer {
     margin-top: 10px;
 }
 
-/* Social icons */
+
 .follow-us-column {
     padding-right: 0;
 }
@@ -287,7 +284,7 @@ footer {
     color: #1c0c01;
 }
 
-/* Bottom copyright bar */
+
 .footer-copyright {
     background-color: #381f0a;
     text-align: center;
@@ -296,7 +293,6 @@ footer {
     color: #ccc;
     border-top: 1px solid #542506;
 }
-/* ------------------- FOOTER ------------------- */
 
 footer {
     width: 100%;
@@ -305,7 +301,7 @@ footer {
     line-height: 1.5;
     font-family: Arial, sans-serif;
 }
-/* Background image behind everything */
+
 .bg-image {
     position: fixed;
     top: 0;
@@ -313,10 +309,9 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1; /* pushes image behind page */
-}
+    z-index: -1; 
 
-/* Fix layout so login stays centered between nav & footer */
+
 .page-content {
     flex: 1;
     display: flex;
@@ -325,14 +320,14 @@ footer {
     padding: 50px 0;
 }
 
-/* Make body behave like normal website layout */
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* FIXED login container — transparent and centered */
+
 .login-container {
     background: rgba(60, 40, 20, 0.75);
     padding: 40px;
@@ -342,7 +337,7 @@ body {
     backdrop-filter: blur(5px);
 }
 
-/* Layout of footer columns */
+
 .footer-content {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -351,7 +346,6 @@ body {
     padding: 30px 20px;
 }
 
-/* Each column */
 .footer-column {
     padding: 0 20px;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
@@ -361,7 +355,7 @@ body {
     border-right: none;
 }
 
-/* Column headings */
+
 .column-title {
     font-size: 18px;
     font-weight: bold;
@@ -370,7 +364,7 @@ body {
     white-space: nowrap;
 }
 
-/* List styling */
+
 .footer-links {
     list-style: none;
     padding: 0;
@@ -391,7 +385,7 @@ body {
     color: #FFD4AA;
 }
 
-/* Left logo column */
+
 .logo-column {
     padding-left: 0;
 }
@@ -407,7 +401,7 @@ body {
     margin-top: 10px;
 }
 
-/* Social icons */
+
 .follow-us-column {
     padding-right: 0;
 }
@@ -436,7 +430,6 @@ body {
     color: #1c0c01;
 }
 
-/* Bottom copyright bar */
 .footer-copyright {
     background-color: #381f0a;
     text-align: center;
