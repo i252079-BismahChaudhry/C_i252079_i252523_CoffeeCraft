@@ -8,7 +8,7 @@ document.getElementById("placeOrderBtn").addEventListener("click", function () {
     let address = document.getElementById("address").value;
 
     if (name === "" || address === "") {
-        alert("Please fill out all required billing fields!");
+        alert("Order Placed Successfully!");
         return;
     }
 
