@@ -149,7 +149,6 @@ body {
     font-family: "Yaldevi Colombo";
     src: url("fonts/yaldevi.colombo-semibold.ttf") format("truetype");
     font-weight: 600;
-    /* SemiBold */
     font-style: normal;
 }
 
@@ -157,7 +156,7 @@ body {
     font-family: "Yanone Kaffeesatz";
     src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
     font-weight: 400;
-    /* Regular */
+ 
     font-style: normal;
 }
 
