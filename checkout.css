@@ -203,11 +203,11 @@ body {
 }
 
 .payment-card {
-    background: #f6d9c9;      /* light peach background */
-    padding: 25px;            /* big padding */
-    border-radius: 12px;      /* curved edges */
-    margin-top: 25px;         /* spacing */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* card shadow */
+    background: #f6d9c9;     
+    padding: 25px;           
+    border-radius: 12px;    
+    margin-top: 25px;         
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
 }
 
 .payment-box {
@@ -243,7 +243,6 @@ body {
     font-family: "Yanone Kaffeesatz";
     src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
     font-weight: 400;
-    /* Regular */
     font-style: normal;
 }
 
@@ -357,7 +356,7 @@ body {
 }
 footer {
     width: 100%;
-    background-color: #4B2810; /* Main dark brown background */
+    background-color: #4B2810; 
     color: #fff;
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -365,7 +364,6 @@ footer {
 
 .footer-content {
     display: grid;
-    /* Defines 4 columns with specific widths */
     grid-template-columns: 2fr 1fr 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
@@ -373,7 +371,7 @@ footer {
 }
 .footer-column {
     padding: 0 20px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1); /* Thin white separator */
+    border-right: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
 .footer-column:last-child {
