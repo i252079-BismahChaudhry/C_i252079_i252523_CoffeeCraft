@@ -17,7 +17,6 @@ document.getElementById("placeOrderBtn").addEventListener("click", function () {
         address: address
     });
 
-    // 2nd alert ✔️
     alert("Order placed successfully!");
 });
 
