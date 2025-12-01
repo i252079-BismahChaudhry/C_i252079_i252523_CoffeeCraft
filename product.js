@@ -19,7 +19,6 @@ document.querySelectorAll(".qty-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     const type = btn.classList.contains("plus") ? "plus" : "minus";
 
-    // Alert #2
     alert("Quantity change (" + type + ") .");
 
     console.log("Quantity button pressed:", type);
