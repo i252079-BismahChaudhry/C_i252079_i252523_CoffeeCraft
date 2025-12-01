@@ -9,7 +9,7 @@ document.querySelectorAll(".size-btn").forEach(btn => {
 
     alert("Size selection : " );
 
-    // Console Log #2 – which size clicked
+   
     console.log("Size button clicked:", size);
   });
 });
@@ -32,7 +32,6 @@ if (addBtn) {
     
     alert("Add to Cart.");
 
-    // Console Log #3
     console.log("Add to Cart clicked for Coffee Temper .");
   });
 }
