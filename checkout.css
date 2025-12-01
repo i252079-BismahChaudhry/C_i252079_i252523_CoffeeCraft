@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-/* Prevent nav/footer from affecting layout */
+
 .checkout-container {
     width: 90%;
     max-width: 1200px;
@@ -24,7 +24,6 @@ body {
     gap: 25px;
 }
 
-/* LEFT PANEL */
 .billing {
     background: #e9bfa6;
     padding: 25px;
@@ -252,7 +251,7 @@ body {
     font-family: "Yaldevi Colombo", sans-serif;
     background-color: #F6E7D7;
     margin: 0;
-    padding: 0;   /* IMPORTANT: Remove padding */
+    padding: 0;  
 }
 
 
@@ -372,8 +371,6 @@ footer {
     margin: 0 auto;
     padding: 30px 20px;
 }
-
-/* --- Column Titles and Links --- */
 .footer-column {
     padding: 0 20px;
     border-right: 1px solid rgba(255, 255, 255, 0.1); /* Thin white separator */
@@ -409,18 +406,17 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #FFD4AA; /* Light brown/peach hover color */
+    color: #FFD4AA;
 }
 
-/* --- Logo and Tagline Column --- */
+
 .logo-column {
-    padding-left: 0; /* Remove padding on the far left */
+    padding-left: 0; 
 }
 
 .logo-area {
-    /* Styles for logo image */
-    width: 100px; /* Adjust as needed */
-    /* height: 100px; Adjust as needed */
+
+    width: 100px; 
     margin-bottom: 10px;
 }
 
@@ -435,9 +431,8 @@ footer {
     margin: 0;
 }
 
-/* --- Social Media Column --- */
 .follow-us-column {
-    padding-right: 0; /* Remove padding on the far right */
+    padding-right: 0; 
 }
 
 .social-icons {
@@ -446,13 +441,12 @@ footer {
 }
 
 .social-icon {
-    /* These styles replicate the circular, dark social icons */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 35px;
     height: 35px;
-    background-color: #1c0c01; /* Very dark brown/black circle background */
+    background-color: #1c0c01;
     border-radius: 50%;
     color: #fff;
     font-size: 18px;
@@ -466,14 +460,13 @@ footer {
     color: #1c0c01;
 }
 
-/* --- Copyright Bar --- */
 .footer-copyright {
-    background-color: #381f0a; /* Slightly darker brown bottom bar */
+    background-color: #381f0a; 
     text-align: center;
     padding: 15px 0;
     font-size: 14px;
     color: #ccc;
-    border-top: 1px solid #542506; /* Subtle separator line */
+    border-top: 1px solid #542506;
 }
 .footer-logo {
     width: 120px;
