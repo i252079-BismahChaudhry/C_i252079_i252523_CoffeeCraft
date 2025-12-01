@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,11 +6,11 @@
 }
 
 body {
-  background-color: #f4e0cc;          /* same beige theme */
+  background-color: #f4e0cc;        
   font-family: "Segoe UI", Tahoma, sans-serif;
 }
 
-/* Page wrapper – safe with nav/footer */
+
 .product-page {
   min-height: 100vh;
   display: flex;
