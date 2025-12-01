@@ -2,7 +2,7 @@
 document.getElementById("forgotPass").addEventListener("click", function () {
     console.log("Forgot password link pressed.");
 
-    // ✔ Alert #3 – confirmation prompt
+   
     let confirmAction = confirm("Do you want to reset your password?");
     if (confirmAction) {
         alert("Password reset link sent!");
