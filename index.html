@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="script.js"></script>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <span>|</span>
-            <li><a href=".html">Products</a></li>
+            <li><a href="products.html">Products</a></li>
             <span>|</span>
             <li><a href="aboutus">About Us</a></li>
             <span>|</span>
@@ -39,9 +40,11 @@
 
         <div class="auth-buttons">
             <button class="login"><a href="login.html">Login</a></button>
-            <button class="signup"><a href="signup.html">Sign Up</a></button>
+<button class="signup" onclick="window.location.href='signup.html'">Sign Up</button>
         </div>
     </nav>
+
+    
     <div class="start-image">
         <img src="start.jpg" alt="coffee image" class="main-image">
         <div class="overlay"></div>
@@ -49,8 +52,8 @@
         <br><br><br>
         <p class="text">&emsp;Single-origin beans, custom blends,<br>&emsp;&emsp;and handcrafted mugs</p>
         <br><br><br><br><br><br>
-        <button class="shop-beans"><a href="shop-beans">Shop Beans</a></button>
-        <button class="customize"><a href="customize">Customize your Coffee</a></button>
+<button class="shop-beans" onclick="window.location.href='shop-beans'">Shop Beans</button>
+<button class="customize" onclick="window.location.href='customize'"><a href="customization.html">Customize your Coffee</a></button>
 
     </div>
     <P class="underline"><b><u>Featured Category:</u></b></P>
@@ -124,16 +127,24 @@
         </div>
 
     </div>
-    <div class="container">
-        <div class="Customization-studio">
-            <div class="content-left">
-                <p class="Studio"> Customization Studio </p>
-                <button class="try-studio">Try the Studio</button>
-            </div>
-            <img src="icons/beans.png" alt="customization studio" class="coffee">
-            <img src="icons/coffee-bean.png" alt="beans" class="coffee-bean">
+<div class="container">
+    <div class="Customization-studio">
+        <div class="content-left">
+
+            <p class="Studio">
+               Customization Studio
+            </p>
+            <a href="customization.html">
+<button class="try-studio" onclick="window.location.href='customization.html'">Try the Studio</button>
+            </a>
+
         </div>
+
+        <img src="icons/beans.png" alt="customization studio" class="coffee">
+        <img src="icons/coffee-bean.png" alt="beans" class="coffee-bean">
     </div>
+</div>
+
     <P class="underline"><b><u>Reviews:</u></b></P>
    <div class="review-card-wrapper">
     <div class="review-card">
