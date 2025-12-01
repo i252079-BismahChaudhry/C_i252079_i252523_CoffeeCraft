@@ -4,7 +4,7 @@ console.log("Checkout page loaded (demo mode only)");
 document.querySelectorAll(".qty-btn").forEach(button => {
   button.addEventListener("click", () => {
 
-    // Alert #1
+ 
     alert("Quantity update.");
 
     console.log("Quantity button clicked");
