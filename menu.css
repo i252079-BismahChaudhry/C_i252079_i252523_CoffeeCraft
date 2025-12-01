@@ -180,7 +180,7 @@ cursor: pointer;
 }
 footer {
     width: 100%;
-    background-color: #4B2810; /* Main dark brown background */
+    background-color: #4B2810; 
     color: #fff;
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -198,7 +198,7 @@ footer {
 
 .footer-column {
     padding: 0 20px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1); /* Thin white separator */
+    border-right: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
 .footer-column:last-child {
@@ -234,7 +234,7 @@ footer {
     color: #FFD4AA; 
 }
 
-/* --- Logo and Tagline Column --- */
+
 .logo-column {
     padding-left: 0; 
 }
@@ -259,8 +259,7 @@ footer {
 
 
 .follow-us-column {
-    padding-right: 0; /* Remove padding on the far right */
-}
+    padding-right: 0; 
 
 .social-icons {
     display: flex;
