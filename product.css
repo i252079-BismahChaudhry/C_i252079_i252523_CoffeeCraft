@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,7 +18,7 @@ body {
   padding: 20px;
 }
 
-/* Card */
+
 .product-card {
   background: #ffffff;
   width: 720px;
@@ -29,7 +29,7 @@ body {
   overflow: hidden;
 }
 
-/* Image section */
+
 .product-image-wrapper {
   background: #ece1d5;
   padding: 18px;
@@ -44,7 +44,7 @@ body {
   background: white;
 }
 
-/* Info section */
+
 .product-info {
   padding: 25px;
   display: flex;
@@ -74,7 +74,7 @@ body {
   font-size: 15px;
 }
 
-/* Price */
+
 .price-label {
   font-size: 18px;
   margin-top: 6px;
@@ -82,7 +82,7 @@ body {
   color: #1e1e1e;
 }
 
-/* COLOR SECTION */
+
 .color-section {
   margin: 12px 0;
   font-size: 14px;
@@ -125,7 +125,7 @@ body {
   color: #555;
 }
 
-/* QUANTITY */
+
 .quantity-section {
   margin: 10px 0 15px;
   font-size: 14px;
@@ -152,7 +152,7 @@ body {
   padding: 5px 12px;
 }
 
-/* BUTTONS */
+
 .action-row-top {
   display: flex;
   gap: 10px;
@@ -186,7 +186,7 @@ body {
   font-size: 18px;
 }
 
-/* Buy button */
+
 .buy-btn {
   background: linear-gradient(to right, #7c3f1d, #5b2b12);
   color: white;
@@ -201,7 +201,7 @@ body {
   opacity: 0.93;
 }
 
-/* Responsive */
+
 @media (max-width: 700px) {
   .product-card {
     grid-template-columns: 1fr;
@@ -233,7 +233,7 @@ body {
     font-family: "Yaldevi Colombo";
     src: url("fonts/yaldevi.colombo-semibold.ttf") format("truetype");
     font-weight: 600;
-    /* SemiBold */
+
     font-style: normal;
 }
 
@@ -241,7 +241,7 @@ body {
     font-family: "Yanone Kaffeesatz";
     src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
     font-weight: 400;
-    /* Regular */
+  
     font-style: normal;
 }
 
@@ -369,7 +369,7 @@ footer {
     padding: 30px 20px;
 }
 
-/* --- Column Titles and Links --- */
+
 .footer-column {
     padding: 0 20px;
     border-right: 1px solid rgba(255, 255, 255, 0.1); 
