@@ -1,8 +1,7 @@
-/* Scoped styles for the Contact Page */
 .coffee-contact-wrapper {
     font-family: 'Outfit', sans-serif;
-    background-color: #FDF5E6; /* Light beige background */
-    color: #4B3621; /* Dark coffee brown */
+    background-color: #FDF5E6; 
+    color: #4B3621; 
     min-height: 100vh;
     padding: 40px;
     box-sizing: border-box;
@@ -11,12 +10,10 @@
     align-items: center;
 }
 
-/* Reset for this wrapper to ensure isolation */
 .coffee-contact-wrapper * {
     box-sizing: border-box;
 }
 
-/* Header */
 .contact-header {
     text-align: center;
     margin-bottom: 40px;
@@ -57,7 +54,6 @@
     margin: 0;
 }
 
-/* Main Container */
 .contact-container {
     display: flex;
     justify-content: center;
@@ -74,9 +70,8 @@
     border-radius: 15px;
 }
 
-/* Form Column */
 .form-column {
-    background-color: #FACC9E; /* Light orange/peach */
+    background-color: #FACC9E;
 }
 
 .form-group {
@@ -88,7 +83,7 @@
     padding: 15px;
     border: 1px solid #D4A77D;
     border-radius: 10px;
-    background-color: #F0EAD6; /* Lighter beige for inputs */
+    background-color: #F0EAD6; 
     font-family: inherit;
     font-size: 1rem;
     color: #4B3621;
@@ -120,9 +115,8 @@
     background-color: #6F4E37;
 }
 
-/* Info Column */
 .info-column {
-    background-color: #FFB86C; /* Stronger orange */
+    background-color: #FFB86C; 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -147,7 +141,7 @@
 
 .info-item i {
     font-size: 1.2rem;
-    width: 20px; /* Fixed width for alignment */
+    width: 20px;
     text-align: center;
 }
 
@@ -173,9 +167,8 @@
     font-style: italic;
 }
 
-/* FAQ Column */
 .faq-column {
-    background-color: #FACC9E; /* Light orange/peach */
+    background-color: #FACC9E; 
 }
 
 .faq-column h3 {
@@ -195,7 +188,7 @@
 
 .faq-question {
     padding: 15px;
-    background-color: #E8DCC6; /* Slightly darker beige for FAQ headers */
+    background-color: #E8DCC6; 
     cursor: pointer;
     font-weight: 600;
     display: flex;
@@ -221,7 +214,7 @@
     max-height: 0;
     overflow: hidden;
     padding: 0 15px;
-    background-color: #E8DCC6; /* Same as header when expanded */
+    background-color: #E8DCC6; 
     font-size: 0.9rem;
     line-height: 1.4;
     transition: max-height 0.3s ease-out, padding 0.3s ease;
@@ -229,7 +222,6 @@
     border-bottom-right-radius: 10px;
 }
 
-/* Active State for FAQ */
 .faq-item.active .faq-question {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -237,11 +229,10 @@
 }
 
 .faq-item.active .faq-answer {
-    max-height: 150px; /* Arbitrary large height */
+    max-height: 150px;
     padding: 10px 15px 20px 15px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 900px) {
     .contact-container {
         flex-direction: column;
@@ -399,7 +390,7 @@ body {
 }
 footer {
     width: 100%;
-    background-color: #4B2810; /* Main dark brown background */
+    background-color: #4B2810; 
     color: #fff;
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -407,17 +398,15 @@ footer {
 
 .footer-content {
     display: grid;
-    /* Defines 4 columns with specific widths */
     grid-template-columns: 2fr 1fr 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 20px;
 }
 
-/* --- Column Titles and Links --- */
 .footer-column {
     padding: 0 20px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1); /* Thin white separator */
+    border-right: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
 .footer-column:last-child {
@@ -450,18 +439,15 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #FFD4AA; /* Light brown/peach hover color */
+    color: #FFD4AA; 
 }
 
-/* --- Logo and Tagline Column --- */
 .logo-column {
-    padding-left: 0; /* Remove padding on the far left */
+    padding-left: 0; 
 }
 
 .logo-area {
-    /* Styles for logo image */
-    width: 100px; /* Adjust as needed */
-    /* height: 100px; Adjust as needed */
+    width: 100px; 
     margin-bottom: 10px;
 }
 
@@ -476,9 +462,8 @@ footer {
     margin: 0;
 }
 
-/* --- Social Media Column --- */
 .follow-us-column {
-    padding-right: 0; /* Remove padding on the far right */
+    padding-right: 0; 
 }
 
 .social-icons {
@@ -487,13 +472,12 @@ footer {
 }
 
 .social-icon {
-    /* These styles replicate the circular, dark social icons */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 35px;
     height: 35px;
-    background-color: #1c0c01; /* Very dark brown/black circle background */
+    background-color: #1c0c01; 
     border-radius: 50%;
     color: #fff;
     font-size: 18px;
@@ -507,14 +491,13 @@ footer {
     color: #1c0c01;
 }
 
-/* --- Copyright Bar --- */
 .footer-copyright {
-    background-color: #381f0a; /* Slightly darker brown bottom bar */
+    background-color: #381f0a; 
     text-align: center;
     padding: 15px 0;
     font-size: 14px;
     color: #ccc;
-    border-top: 1px solid #542506; /* Subtle separator line */
+    border-top: 1px solid #542506; 
 }
 .footer-logo {
     width: 120px;
