@@ -10,7 +10,6 @@
     font-family: "Yaldevi Colombo";
     src: url("fonts/yaldevi.colombo-semibold.ttf") format("truetype");
     font-weight: 600;
-    /* SemiBold */
     font-style: normal;
 }
 
@@ -18,7 +17,6 @@
     font-family: "Yanone Kaffeesatz";
     src: url("fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
     font-weight: 400;
-    /* Regular */
     font-style: normal;
 }
 
@@ -129,7 +127,6 @@ body {
     box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25);
 
 }
-/*----------------------------------*/
 body {
     font-family: Arial, sans-serif;
     background: #f6e7d8;
@@ -151,7 +148,7 @@ header h1 {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 3 cards per row */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 25px;
     justify-items: center;
     padding: 20px;
@@ -184,7 +181,7 @@ header h1 {
 
 footer {
     width: 100%;
-    background-color: #4B2810; /* Main dark brown background */
+    background-color: #4B2810; 
     color: #fff;
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -192,17 +189,15 @@ footer {
 
 .footer-content {
     display: grid;
-    /* Defines 4 columns with specific widths */
     grid-template-columns: 2fr 1fr 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 20px;
 }
 
-/* --- Column Titles and Links --- */
 .footer-column {
     padding: 0 20px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1); /* Thin white separator */
+    border-right: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
 .footer-column:last-child {
@@ -235,18 +230,16 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #FFD4AA; /* Light brown/peach hover color */
+    color: #FFD4AA; 
 }
 
 /* --- Logo and Tagline Column --- */
 .logo-column {
-    padding-left: 0; /* Remove padding on the far left */
+    padding-left: 0;
 }
 
 .logo-area {
-    /* Styles for logo image */
-    width: 100px; /* Adjust as needed */
-    /* height: 100px; Adjust as needed */
+    width: 100px;
     margin-bottom: 10px;
 }
 
@@ -261,9 +254,8 @@ footer {
     margin: 0;
 }
 
-/* --- Social Media Column --- */
 .follow-us-column {
-    padding-right: 0; /* Remove padding on the far right */
+    padding-right: 0;
 }
 
 .social-icons {
@@ -272,13 +264,12 @@ footer {
 }
 
 .social-icon {
-    /* These styles replicate the circular, dark social icons */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 35px;
     height: 35px;
-    background-color: #1c0c01; /* Very dark brown/black circle background */
+    background-color: #1c0c01; 
     border-radius: 50%;
     color: #fff;
     font-size: 18px;
@@ -292,14 +283,13 @@ footer {
     color: #1c0c01;
 }
 
-/* --- Copyright Bar --- */
 .footer-copyright {
-    background-color: #381f0a; /* Slightly darker brown bottom bar */
+    background-color: #381f0a; 
     text-align: center;
     padding: 15px 0;
     font-size: 14px;
     color: #ccc;
-    border-top: 1px solid #542506; /* Subtle separator line */
+    border-top: 1px solid #542506; 
 }
 .footer-logo {
     width: 120px;
